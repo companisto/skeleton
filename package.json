@@ -1,0 +1,53 @@
+{
+	"name": "crm.companisto",
+	"version": "1.0.0",
+	"description": "Use this skeleton application to quickly setup and start working on a new Slim Framework 3 application. This application uses the latest Slim 3 with the PHP-View template renderer. It also uses the Monolog logger.",
+	"main": "index.js",
+	"directories": {
+		"test": "tests"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "webpack --mode development --progress",
+		"production": "webpack --mode production --progress",
+		"watch": "npm run dev -- --watch"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.2.2",
+		"@babel/preset-env": "^7.3.1",
+		"autoprefixer": "^9.4.7",
+		"babel-loader": "^8.0.5",
+		"clean-webpack-plugin": "^1.0.1",
+		"css-loader": "^2.1.0",
+		"datatables.net": "^1.10.19",
+		"datatables.net-bs4": "^1.10.19",
+		"expose-loader": "^0.7.5",
+		"file-loader": "^3.0.1",
+		"font-awesome": "^4.7.0",
+		"imagemin": "^6.1.0",
+		"imagemin-gifsicle": "^6.0.1",
+		"imagemin-mozjpeg": "^8.0.0",
+		"imagemin-pngquant": "^7.0.0",
+		"imagemin-svgo": "^7.0.0",
+		"img-loader": "^3.0.1",
+		"mini-css-extract-plugin": "^0.5.0",
+		"node-sass": "^4.11.0",
+		"optimize-css-assets-webpack-plugin": "^5.0.1",
+		"postcss-loader": "^3.0.0",
+		"purgecss-webpack-plugin": "^1.4.0",
+		"sass-loader": "^7.1.0",
+		"style-loader": "^0.23.1",
+		"uglifyjs-webpack-plugin": "^2.1.1",
+		"url-loader": "^1.1.2",
+		"webpack": "^4.29.0",
+		"webpack-cli": "^3.2.1"
+	},
+	"dependencies": {
+		"bootstrap": "^4.2.1",
+		"jquery": "^3.3.1",
+		"popper.js": "^1.14.7"
+	}
+}

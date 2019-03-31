@@ -1,0 +1,61 @@
+@import "custom";
+@import "~bootstrap/scss/bootstrap";
+@import "login";
+@import "~datatables.net-bs4/css/dataTables.bootstrap4.css";
+
+$fa-font-path: "~font-awesome/fonts/";
+@import "~font-awesome/scss/font-awesome";
+
+
+.img-test{
+	//path of the image is relative to this file
+	background-image: url("./../images/test.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	//background-color: red;
+}
+
+.modal-lg {
+    max-width: 60% !important;
+}
+
+.ed-home-jumbotron{
+	//background: #F8F9FA url("./../images/test.png") no-repeat 50px center / contain;
+	background: #F8F9FA url("./../images/test.png") no-repeat 50px center / auto 180px;
+}
+
+.ed-wizard {
+
+	.modal-content {
+		height: 90vh;
+	}
+
+	.modal-body{
+		padding: 1rem 0px;
+		overflow: hidden;
+
+		.container-fluid{
+			height: 100%;
+			overflow: hidden;
+
+			.row{
+				height: 100%;
+				overflow: hidden;
+
+				.ed-content-column{
+					height: 100%;
+					overflow-y: auto;
+				}
+			}
+		}
+	}
+
+	.modal-footer{
+		background-color: #F7F7F9;
+		display: block;	
+
+		.text-center{
+			line-height: 2.25;
+		}
+	}
+}
