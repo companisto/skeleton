@@ -3,3 +3,5 @@
 /logs/*
 !/logs/README.md
 __TODO.md
+package-lock.json
+npm-debug.log
